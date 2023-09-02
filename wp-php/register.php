@@ -68,8 +68,8 @@ if (isset($_POST['user-account'])) {
         $verification_code = generate_code(16);
 
         $title = "Santisima";
-        $username = "_mainaccount@fnhs-evoting.com";
-        $password = "09071925550ndM@";
+        $username = "";
+        $password = "";
         $name = $fname . " " . $lname;
 
         $mail = new PHPMailer(true);
